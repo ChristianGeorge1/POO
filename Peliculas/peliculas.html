@@ -8,11 +8,63 @@
     <title>Peliculas</title>
 </head>
 <body>
-    
+    <div class="container">
+        <form action="">
+            <div>
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" />
+            </div>
+            <div>
+                <label for="genero">Genero: </label>
+                <input type="text" id="genero" />
+            </div>
+            <div>
+                <label for="año">Año: </label>
+                <input type="number" id="año" />
+            </div>
+            <div>
+                <label for="duracion">Duración: </label>
+                <input type="number" id="duracion" />
+            </div>
+            <div>
+                <button type="button" id="btnAgregar">Agregar</button>
+            </div>
+        </form>
+    </div>
 
 
 
     
 </body>
-<script src="js/main.js"></script>
+<script src="js/main.js" type="module"></script>
 </html>
+
+<!--
+TAREA: 
+Queremos hacer un carrito de compras, para eso podemos tener un catalago de productos: 
+*Clase de productos. 
+Atributos
+-Nombre del producto. 
+-Cantidad. 
+-Precio $$unitario.
+
+Métodos: 
+-Regresar el costo total en pesos. 
+-El costo total en dolores. 
+
+HTML
+*Formulario 
+  -Nombre del producto
+  -Cantidad
+  -Precio unitario.
+
+Al momento de presionar el botón va a generar una instancia del producto.
+
+
+
+
+
+
+
+
+-->
