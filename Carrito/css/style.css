@@ -1,0 +1,66 @@
+body{
+    background-color: #435058;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+.container{
+    background-color: #DCF763;
+    width: 600px;
+    margin: 150px auto;
+    text-align: center; 
+    padding: 15px;
+    border-radius: 10px;
+}
+.nombre{
+    padding: 10px;
+}
+.cantidad{
+    padding: 10px;
+    margin-left: 100px;
+}
+.precio{
+    padding: 10px;
+    margin-left: 200px
+}
+input{
+    height: 30px;
+    border-radius: 10px;
+}
+button{
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button:hover{
+    background-color: #848C8E;
+    color: white;
+}
+footer{
+    background-color: #848C8E;
+    text-align: center;
+    padding: 10px;
+    bottom: 0; 
+    position: fixed;
+    width: 100%;
+    color: whitesmoke;
+}
+nav{
+    background: #848C8E;
+    width: 100%;
+    top: 0;
+    color: white;
+    position: fixed
+}
+.center{
+    text-align: center;
+}
+.imagen{
+    margin-left: 54%;
+}
+.icono{
+    position: absolute;
+   width: 45px;
+   padding: 5px;
+}
