@@ -6,10 +6,18 @@ body{
 .container{
     background-color: #DCF763;
     width: 600px;
-    margin: 150px auto;
+    margin: 250px 50px 50px 150px;
     text-align: center; 
     padding: 15px;
     border-radius: 10px;
+}
+
+.contenedor2{ 
+    width: 600px;
+    background-color: #DCF763;
+    margin: 250px 50px 50px 150px;
+
+
 }
 .nombre{
     padding: 10px;
@@ -36,6 +44,7 @@ button{
 button:hover{
     background-color: #848C8E;
     color: white;
+    transition: 1.5;
 }
 footer{
     background-color: #848C8E;
